@@ -1,0 +1,15 @@
+<nav class="navbar">
+  <div class="navbar-section left">
+    <a routerLink="/dieseltank" class="nav-link">Diesel Tanks</a>
+    <a routerLink="/about" class="nav-link">About</a>
+  </div>
+
+  <div class="navbar-section center">
+    <img src="assets/telmex.svg" alt="Logo" class="logo" />
+  </div>
+
+  <div class="navbar-section right">
+    <span class="username">{{ user.name }}</span>
+    <img [src]="user.avatarUrl" alt="User Avatar" class="avatar" />
+  </div>
+</nav>
